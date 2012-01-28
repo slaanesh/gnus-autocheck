@@ -1,6 +1,4 @@
-;;; gnus-autocheck.el
-;; Auto check for new incoming news and mails
-;; Autocheck is binded to "vs" to start it and to "ve" to end it in Group mode
+;;; gnus-autocheck.el --- Auto check for new incoming news and mails
 ;;
 ;; Copyright (c) Olivier Sirven
 ;;
@@ -18,7 +16,11 @@
 ;; For a copy of the GNU General Public License, search the Internet,
 ;; or write to the Free Software Foundation, Inc., 59 Temple Place,
 ;; Suite 330, Boston, MA 02111-1307 USA
-;;
+
+;;; Commentary:
+
+;; Auto check for new incoming news and mails.  Autocheck is bound to
+;; "vs" to start it and to "ve" to end it in Group mode
 
 (defvar gnus-autocheck-version-number "0.2" "Gnus autocheck version number")
 
